@@ -1,0 +1,79 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: rgb(30, 30, 45, 0.993);
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+nav ul li a:hover {
+    background-color: rgb(25, 139, 233);
+}
+
+nav ul li:last-child a {
+    float: right;
+    background-color: rgb(25, 139, 233);
+}
+
+nav h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+nav ul {
+    font-size: 20px;
+}
+
+.sobre {
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+}
+
+.texto {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+body {
+    background: url(../img/nature-3082832_1920.jpg)no-repeat;
+    width: 100%;
+    max-width: 100%;
+}
+
+header {
+    background-color: #02011378;
+    margin-left: 5%;
+    margin-top: 3.5%;
+    margin-right: 5%;
+    border-radius: 20px;
+    margin-bottom: 1%;
+}
+
+.giff {
+    text-align: center;
+}
